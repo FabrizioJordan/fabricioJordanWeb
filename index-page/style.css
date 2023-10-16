@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
     font-family: 'Rubik';
     src: url(/assets/fonts/Rubik.ttf);
@@ -6,6 +10,10 @@
 
 .rubik{
     font-family: 'Rubik';
+}
+
+.rounded-100{
+    border-radius: 100%;
 }
 
 
@@ -34,4 +42,8 @@
 
 .bg-300{
     background: var(--bg-300);
+}
+
+.color-1{
+    color: #25adad;
 }

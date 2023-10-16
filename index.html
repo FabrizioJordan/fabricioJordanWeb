@@ -1,32 +1,72 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/index-page/style.css">
-    <link rel="shortcut icon" href="/assets/svg/FJlogoWhite.svg" type="image/x-icon">
-    <script src='https://cdn.tailwindcss.com'></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/index-page/style.css" />
+    <link rel="shortcut icon" href="/assets/svg/FJlogoWhite.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <script defer src="/index-page/script.js"></script>
     <title>Portfolio estudiante FJ</title>
 </head>
+
 <body class="rubik bg-100 w-full h-full">
+
     <header class="">
-        <section class="bg-300 flex flex-row justify-c p-4 mt-2 mx-4 rounded-lg">
-            <div class="flex justiy-center items-center">
-                <img class="w-8 h-8" src="/assets/svg/FJlogoBlack.svg" alt="un svg de mi logo con mis iniciales">
+        <section class="bg-300 flex flex-row justify-between items-center px-12 p-4 mt-2 mx-4 rounded-lg">
+
+            <div class="flex justiy-center items-center"> <!--   ICONO     -->
+                <img class="w-8 h-8 transition hover:scale-105" src="/assets/svg/FJlogoBlack.svg"
+                    alt="un svg de mi logo con mis iniciales" />
             </div>
-            <article class="">
+
+            <article class="">  <!--   LISTA WEBS     -->
                 <ul class="flex flex-row justify-center items-center gap-4">
-                    <li class="font-">Inicio</li>
-                    <li>A</li>
+                    <li class="font-medium text-lg duration-700 transition rounded-lg p-2 hover:bg-cyan-600">
+                        Inicio
+                    </li>
+                    <li class="font-medium text-lg duration-700 transition rounded-lg p-2 hover:bg-cyan-600">
+                        Formularios
+                    </li>
+                    <li class="font-medium text-lg duration-700 transition rounded-lg p-2 hover:bg-cyan-600">
+                        Tablas
+                    </li>
+                    <li class="font-medium text-lg duration-700 transition rounded-lg p-2 hover:bg-cyan-600">
+                        Desafíos
+                    </li>
                 </ul>
             </article>
+
+            <div class="">  <!--  DISCLAIMER MENU    -->
+                
+                <section class="relative w-full h-ful flex justify-center items-center flex-col">
+                    <div class="rounded-100 cursor-pointer w-10">
+                        <img id="btn__info-1"
+                            class="bg-cyan-600 rounded-100 w-10 transition-colors duration-500 z-10"
+                            src="/assets/svg/plus.svg" alt="" />
+                    </div>
+
+                    <div id="text__Info1" class="hidden absolute top-1/2 right-1/2 bg-zinc-300 p-6 rounded-xl z-10">
+                        <p class="mb-2">
+                            Haga click <a class="text-cyan-600" target="_blank" href="https://docs.google.com/document/d/16GywfPkY6XHyz8eTsfzdh4t-G92tBo7Tbq32l4RnUqc/edit?usp=drive_link">aquí</a> para ver mis recomendaciones de páginas webs.
+                        </p>
+                        <p>
+                            Haga click <a class="text-cyan-600" target="_blank" href="https://portfolio.fabriciojordan.repl.co/">aquí</a> para ver mi portafolio personal.
+                        </p>
+                    </div>
+                </section>
+            </div>
+
         </section>
     </header>
-    <main class="">
 
-    </main>
-    <footer>
+    <main class="">
         
-    </footer>
+    </main>
+
+    <footer></footer>
+
 </body>
+
 </html>
