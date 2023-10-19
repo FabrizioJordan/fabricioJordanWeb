@@ -47,3 +47,16 @@
 .color-1{
     color: #25adad;
 }
+
+
+.my-grid-1{
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+}
+
+.h-11-12 {
+    height: 95.666667%;
+}
+
+main > section > article{
+    min-width: 320px;
+}
