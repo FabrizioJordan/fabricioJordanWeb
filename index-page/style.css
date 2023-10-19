@@ -60,3 +60,10 @@
 main > section > article{
     min-width: 320px;
 }
+
+#footer__Art{
+    background-color: gray;
+}
+#footer__Art .name{
+    color: cyan;
+}
