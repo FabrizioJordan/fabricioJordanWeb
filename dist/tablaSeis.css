@@ -768,73 +768,76 @@ video {
 }
 
 @font-face {
-  font-family: 'Rubik';
+  font-family: "Rubik";
 
   src: url(/assets/fonts/Rubik.ttf);
 
   font-display: fallback;
 }
 
-.rubik{
-  font-family: 'Rubik';
+.rubik {
+  font-family: "Rubik";
 }
 
-.rounded-100{
+.rounded-100 {
   border-radius: 100%;
 }
 
 * {
   --black: #000000;
-  --primary-100: #8FBF9F;
+  --primary-100: #8fbf9f;
   --primary-200: #68a67d;
   --primary-300: #24613b;
-  --accent-100: #F18F01;
+  --accent-100: #f18f01;
   --accent-150: #ffb242;
   --accent-200: #833500;
   --text-100: #353535;
   --text-200: #5f5f5f;
-  --bg-100: #F5ECD7;
+  --bg-100: #f5ecd7;
   --bg-200: #ebe2cd;
   --bg-300: #c2baa6;
 }
 
-.bg-100{
+.bg-100 {
   background: var(--bg-100);
 }
 
-.bg-200{
+.bg-200 {
   background: var(--bg-200);
 }
 
-.bg-300{
+.bg-300 {
   background: var(--bg-300);
 }
 
-.color-1{
+.color-1 {
   color: #25adad;
 }
 
-.my-grid-1{
-  grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+.my-grid-1 {
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 .h-11-12 {
   height: 95.666667%;
 }
 
-main > section > article{
+main > section > article {
   min-width: 320px;
 }
 
-#footer__Art{
+#footer__Art {
   background-color: gray;
 }
 
-#footer__Art .name{
+#footer__Art .name {
   color: cyan;
 }
 
-table, tr, th,td{
+table,
+tr,
+th,
+td {
   border: 1px solid black;
 }
 
