@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/assets/svg/FJlogoWhite.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <script defer src="/index-page/script.js"></script>
+    <title>Portfolio estudiante FJ</title>
+</head>
+
+<body class="rubik bg-100 w-full h-full">
+    <header class="">
+        <section class="bg-300 flex flex-row justify-between items-center px-12 p-4 mt-2 mx-4 rounded-lg">
+            <div class="flex justiy-center items-center">
+                <!--   ICONO     -->
+                <img class="w-8 h-8 transition hover:scale-105" src="/assets/svg/FJlogoBlack.svg"
+                    alt="un svg de mi logo con mis iniciales" />
+            </div>
+
+            <article class="">
+                <!--   LISTA WEBS     -->
+                <ul class="flex flex-row justify-center items-center gap-4">
+
+                    <a href="/index.html">
+                      <li class="font-medium text-lg duration-700 transition rounded-lg p-2 hover:bg-cyan-600">Inicio</li>
+                    </a>
+                    
+                    <a href="/forms-page/seis.html">
+                      <li class="hidden md:flex font-medium text-lg duration-700 transition rounded-lg p-2 hover:bg-cyan-600">Formularios</li>
+                    </a>
+          
+                    <a href="/tablas/tablaSeis.html">
+                      <li class="hidden md:flex font-medium text-lg duration-700 transition rounded-lg p-2 hover:bg-cyan-600">Tablas</li>
+                    </a>
+          
+                    <a href="/desafio1/desafio1.html">
+                      <li class="hidden md:flex font-medium text-lg duration-700 transition rounded-lg p-2 hover:bg-cyan-600">Desafío 1</li>
+                    </a>
+          
+                  </ul>
+            </article>
+
+            <div class="">
+                <!--  DISCLAIMER MENU    -->
+
+                <section class="relative w-full h-ful flex justify-center items-center flex-col">
+                    <div class="rounded-100 cursor-pointer w-10">
+                        <img id="btn__info-1" class="bg-cyan-600 rounded-100 w-10 transition duration-500 z-10"
+                            src="/assets/svg/plus.svg" alt="" />
+                    </div>
+
+                    <div id="text__Info1" class="hidden absolute  top-1/2 right-1/2 bg-zinc-300 p-6 rounded-xl z-10">
+                        <p class="mb-2">
+                            Haga click
+                            <a class="text-cyan-600 transition hover:font-semibold hover:text-green-700" target="_blank"
+                                href="https://docs.google.com/document/d/16GywfPkY6XHyz8eTsfzdh4t-G92tBo7Tbq32l4RnUqc/edit?usp=drive_link">aquí</a>
+                            para ver mis recomendaciones de páginas webs.
+                        </p>
+                        <p>
+                            Haga click
+                            <a class="text-cyan-600 transition hover:font-semibold hover:text-green-700" target="_blank"
+                                href="https://portfolio.fabriciojordan.repl.co/">aquí</a>
+                            para ver mi portafolio personal.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </header>
+
+    <main class="my-12 w-full h-full text-center flex flex-col justify-center items-center gap-8">
+
+        <section class="sec-form2 bg-stone-100 border border-black p-4 w-6/12 m-auto flex flex-col gap-4">
+            <h1 class="text-xl font-semibold">Formulario de registro 2</h1>
+            <form class="flex flex-col gap-4 p-4 m-auto justify-center items-center" action="">
+                <div>
+                    <fieldset>
+                        <legend>Datos del titular</legend>
+                        <label for="nombre">Nombre:</label>
+                        <input class="border border-black my-1"  id="nombre" maxlength="30" name="nombre" pattern="[A-Za-záéíóúÁÉÍÓÚñÑ\\\\\\\\s]+"
+                            placeholder="Introduce el nombre..." required="" type="text">
+                        <br>
+                        <label for="apellido">Apellido:</label>
+                        <input class="border border-black my-1"  id="apellido" maxlength="30" name="apellido" pattern="[A-Za-záéíóúÁÉÍÓÚñÑ\\\\\\\\s]+"
+                            placeholder="Introduce el apellido..." required="" type="text">
+                            <br>
+                        <label for="telefono">Teléfono:</label>
+                        <input class="border border-black my-1"  id="telefono" maxlength="9" name="telefono" pattern="[0-9]+"
+                            placeholder="Introduce el teléfono..." required="" type="tel">
+                            <br>
+                        <label for="fecha_empadronamiento">Fecha de empadronamiento:</label>
+                        <input class="border border-black my-1"  id="fecha_empadronamiento" name="fecha_empadronamiento" required="" type="date">
+                    </fieldset>
+                </div>
+                <div class="flex flex-col gap-4 justify-center items-center">
+                    <fieldset class="p-4">
+                        <legend>Datos del vehículo</legend>
+                        <label for="marca">Marca:</label>
+                        <select class="border border-black my-1"  id="marca" name="marca">
+                            <option value="">
+                                Selecciona una marca
+                            </option>
+                            <option value="Audi">
+                                Audi
+                            </option>
+                            <option value="BMW">
+                                BMW
+                            </option>
+                            <option value="Ferrari">
+                                Ferrari
+                            </option>
+                            <option value="Ford">
+                                Ford
+                            </option>
+                            <option value="Jaguar">
+                                Jaguar
+                            </option>
+                            <option value="Lamborghini">
+                                Lamborghini
+                            </option>
+                            <option value="Mercedes-Benz">
+                                Mercedes-Benz
+                            </option>
+                            <option value="Porsche">
+                                Porsche
+                            </option>
+                            <option value="Rolls-Royce">
+                                Rolls-Royce
+                            </option>
+                            <option value="Tesla">
+                                Tesla
+                            </option>
+                        </select>
+                        <br>
+                        <label for="modelo">Modelo:</label>
+                        <input class="border border-black my-1"  id="modelo" name="modelo" placeholder="Introduce el modelo..." required="" type="text">
+                        <br>
+                        <label for="año">Año:</label>
+                        <select class="border border-black my-1"  id="año" name="año">
+                            <option value="">
+                                Seleccione el año
+                            </option>
+                            <option value="2000">
+                                2000
+                            </option>
+                            <option value="2001">
+                                2001
+                            </option>
+                            <option value="2002">
+                                2002
+                            </option>
+                            <option value="2003">
+                                2003
+                            </option>
+                            <option value="2004">
+                                2004
+                            </option>
+                            <option value="2005">
+                                2005
+                            </option>
+                            <option value="2006">
+                                2006
+                            </option>
+                            <option value="2007">
+                                2007
+                            </option>
+                            <option value="2008">
+                                2008
+                            </option>
+                            <option value="2009">
+                                2009
+                            </option>
+                            <option value="2010">
+                                2010
+                            </option>
+                            <option value="2011">
+                                2011
+                            </option>
+                            <option value="2012">
+                                2012
+                            </option>
+                            <option value="2013">
+                                2013
+                            </option>
+                            <option value="2014">
+                                2014
+                            </option>
+                            <option value="2015">
+                                2015
+                            </option>
+                            <option value="2016">
+                                2016
+                            </option>
+                            <option value="2017">
+                                2017
+                            </option>
+                            <option value="2018">
+                                2018
+                            </option>
+                            <option value="2019">
+                                2019
+                            </option>
+                            <option value="2020">
+                                2020
+                            </option>
+                            <option value="2021">
+                                2021
+                            </option>
+                            <option value="2022">
+                                2022
+                            </option>
+                            <option value="2023">
+                                2023
+                            </option>
+                        </select>
+                        <br>
+                        <label for="color">Color:</label>
+                        <select class="border border-black my-1"  id="color" name="color">
+                            <option value="">
+                                Selecciona un color
+                            </option>
+                            <option value="Blanco">
+                                Blanco
+                            </option>
+                            <option value="Negro">
+                                Negro
+                            </option>
+                            <option value="Gris">
+                                Gris
+                            </option>
+                            <option value="Rojo">
+                                Rojo
+                            </option>
+                            <option value="Azul">
+                                Azul
+                            </option>
+                            <option value="Verde">
+                                Verde
+                            </option>
+                            <option value="Amarillo">
+                                Amarillo
+                            </option>
+                            <option value="Naranja">
+                                Naranja
+                            </option>
+                            <option value="Morado">
+                                Morado
+                            </option>
+                            <option value="Rosa">
+                                Rosa
+                            </option>
+                        </select>
+                        <br>
+                        <label for="matricula">Matrícula:</label>
+                        <input class="border border-black my-1"  id="matricula" name="matricula" pattern="[A-Z]{3}[0-9]{4}"
+                            placeholder="Introduce la matrícula..." required="" type="text">
+                            <br>
+                        <label for="ciudad">Ciudad:</label>
+                        <select class="border border-black my-1"  id="ciudad" name="ciudad">
+                            <option value="">
+                                Selecciona una ciudad
+                            </option>
+                            <option value="Artigas">
+                                Artigas
+                            </option>
+                            <option value="Canelones">
+                                Canelones
+                            </option>
+                            <option value="Cerro Largo">
+                                Cerro Largo
+                            </option>
+                            <option value="Colonia">
+                                Colonia
+                            </option>
+                            <option value="Durazno">
+                                Durazno
+                            </option>
+                            <option value="Flores">
+                                Flores
+                            </option>
+                            <option value="Florida">
+                                Florida
+                            </option>
+                            <option value="Lavalleja">
+                                Lavalleja
+                            </option>
+                            <option value="Maldonado">
+                                Maldonado
+                            </option>
+                            <option value="Montevideo">
+                                Montevideo
+                            </option>
+                            <option value="Paysandú">
+                                Paysandú
+                            </option>
+                            <option value="Río Negro">
+                                Río Negro
+                            </option>
+                            <option value="Rivera">
+                                Rivera
+                            </option>
+                            <option value="Rocha">
+                                Rocha
+                            </option>
+                            <option value="Salto">
+                                Salto
+                            </option>
+                            <option value="San José">
+                                San José
+                            </option>
+                            <option value="Soriano">
+                                Soriano
+                            </option>
+                            <option value="Tacuarembó">
+                                Tacuarembó
+                            </option>
+                            <option value="Treinta y Tres">
+                                Treinta y Tres
+                            </option>
+                        </select>
+                    </fieldset>
+                    <input class="border border-black p-2 py-0 bg-slate-300" type="submit" value="Enviar">
+                </div>
+                
+            </form>
+
+    </main>
+
+    <footer class="pb-4">
+        <section id="footer__Art"
+            class="text-white flex flex-row justify-center items-center px-12 p-4 mt-2 mx-4 rounded-lg gap-8">
+            <div class="flex justiy-center items-center">
+                <!--   ICONO     -->
+                <img class="w-8 h-8 transition invert hover:scale-105" src="/assets/svg/FJlogoBlack.svg"
+                    alt="un svg de mi logo con mis iniciales" />
+            </div>
+
+            <article class="flex flex-row gap-4 justify-center items-center ">
+                <p>Creado por: </p>
+                <a href="https://portfolio.fabriciojordan.repl.co/" class="name">Fabricio Jordán</a>
+                <p>- 2023 -</p>
+            </article>
+
+
+        </section>
+    </footer>
+
+</body>
+
+</html>
