@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="/assets/svg/FJlogoWhite.svg" type="image/x-icon" />
+  <link rel="stylesheet" href="/dist/output.css" />
+  <script defer src="/ejercicios-js/ejercicios-js.js"></script>
+  <title>Portfolio estudiante FJ</title>
+</head>
+
+<body class="w-full h-full text-black firebrick">
+  <style>
+    main{
+      background: url(/assets/img/pattern.png);
+    }
+  </style>
+  <header class="absolute top-8 left-8">
+    <div class="bg-white rounded-lg p-4">
+      <a class="font-semibold" href="/index.html">Volver</a>
+    </div>
+  </header>
+
+  <main class="w-full h-full bg-no-repeat bg-cover bg-fixed">
+    <div class=" py-20 w-full h-auto flex flex-col gap-12 justify-center items-center ">
+      
+
+    <section class="w-80 h-96 bg-white rounded-lg flex flex-col justify-center items-center">
+      <article class="flex justify-center items-center p-4">
+        <img class="m-auto w-24 h-24 object-contain	" id="img_Person" src="#" alt="Imagen dependiendo de su edad">
+      </article>
+      <article class="flex justify-center items-center flex-col gap-4">
+        <h1>¿Cuántos años tienes cabron?</h1>
+        <input id="inputEdad" class="bg-gray-600 rounded-lg text-white pl-2" type="text">
+        <button id="btnEnviar1" class="bg-emerald-300 p-2 px-4 rounded-lg">Enviar</button>
+
+        <p id="text" class="bg-black text-white rounded-lg p-4">Ingrese su edad</p>
+      </article>
+    </section>
+
+    <section class="w-80 f-96 bg-white rounded-lg flex flex-col justify-center items-center">
+
+      <article class="flex justify-center items-center">
+        <img class="m-auto w-24 h-24 object-contain" src="/assets/img/ejercicios-js/velocidad.jpeg"
+          alt="Imagen de la formula de velocidad">
+      </article>
+
+      <article class="flex justify-center items-center flex-col gap-4 p-6">
+        <h1 class="font-semibold ">Calculadora de velocidad en base a distancia y tiempo</h1>
+
+        <div>
+          <p class="">Ingrese Distancia: </p>
+          <input class="bg-gray-700 text-white p-2 rounded-lg" id="txt__Distancia" type="text" value="">
+        </div>
+        <div>
+          <p class="">Ingrese Tiempo: </p>
+          <input class="bg-gray-700 text-white p-2 rounded-lg" id="txt__Tiempo" type="text" value="">
+        </div>
+
+        <button id="btnEnviar2" class="bg-emerald-300 p-2 px-4 rounded-lg">Enviar</button>
+        <p>Resultado: <span id="resultado2"></span></p>
+      </article>
+
+    </section>
+
+
+
+    <section class="w-80 f-96 bg-white rounded-lg flex flex-col justify-center items-center">
+
+      <article class="flex justify-center items-center">
+        <img class="m-auto w-24 h-24 object-contain" src="/assets/img/ejercicios-js/iva.webp" alt="Imagen sobre el IVA">
+      </article>
+
+      <article class="flex justify-center items-center flex-col gap-4 p-6">
+        <h1 class="font-semibold ">Calculadora de impuestos total en base a monto y tasa de impuesto</h1>
+
+        <div>
+          <p class="">Ingrese Monto: </p>
+          <input class="bg-gray-700 text-white p-2 rounded-lg" id="txt__Monto" type="text" value="">
+        </div>
+        <div>
+          <p class="">Ingrese tasa de impuestos: </p>
+          <input class="bg-gray-700 text-white p-2 rounded-lg" id="txt__Imp" type="text" value="">
+        </div>
+
+        <button id="btnEnviar3" class="bg-emerald-300 p-2 px-4 rounded-lg">Enviar</button>
+        <p>Resultado: <span id="resultado3"></span></p>
+      </article>
+
+    </section>
+    
+  </div>
+  </main>
+<style>
+  .firebrick {
+  background-color: firebrick;
+}
+</style>
+
+
+</body>
+
+</html>
