@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="/assets/svg/FJlogoWhite.svg" type="image/x-icon" />
+  <link rel="stylesheet" href="/dist/output.css" />
+  <script defer src="/index-page/script.js"></script>
+  <script defer src="/desafio1/desafio1.js"></script>
+  <title>Portfolio estudiante FJ</title>
+</head>
+
+<body class="rubik bg-100 w-full h-full">
+  <header class="">
+    <section class="bg-300 flex flex-row justify-between items-center px-12 p-4 mt-2 mx-4 rounded-lg">
+      <div class="flex justiy-center items-center">
+        <!--   ICONO     -->
+        <img class="w-8 h-8 transition hover:scale-105" src="/assets/svg/FJlogoBlack.svg"
+          alt="un svg de mi logo con mis iniciales" />
+      </div>
+
+      <article class="">
+        <!--   LISTA WEBS     -->
+        <ul class="flex flex-row justify-center items-center gap-4">
+          <li class="font-medium text-lg duration-700 transition rounded-lg p-2 hover:bg-cyan-600">
+            Inicio
+          </li>
+          <li class="hidden md:flex font-medium text-lg duration-700 transition rounded-lg p-2 hover:bg-cyan-600">
+            Formularios
+          </li>
+          <li class="hidden md:flex font-medium text-lg duration-700 transition rounded-lg p-2 hover:bg-cyan-600">
+            Tablas
+          </li>
+          <li class="hidden md:flex font-medium text-lg duration-700 transition rounded-lg p-2 hover:bg-cyan-600">
+            Desafíos
+          </li>
+        </ul>
+      </article>
+
+      <div class="">
+        <!--  DISCLAIMER MENU    -->
+
+        <section class="relative w-full h-ful flex justify-center items-center flex-col">
+          <div class="rounded-100 cursor-pointer w-10">
+            <img id="btn__info-1" class="bg-cyan-600 rounded-100 w-10 transition duration-500 z-10"
+              src="/assets/svg/plus.svg" alt="" />
+          </div>
+
+          <div id="text__Info1" class="hidden absolute  top-1/2 right-1/2 bg-zinc-300 p-6 rounded-xl z-10">
+            <p class="mb-2">
+              Haga click  
+              <a class="text-cyan-600 transition hover:font-semibold hover:text-green-700" target="_blank"
+                href="https://docs.google.com/document/d/16GywfPkY6XHyz8eTsfzdh4t-G92tBo7Tbq32l4RnUqc/edit?usp=drive_link">aquí</a>
+              para ver mis recomendaciones de páginas webs.
+            </p>
+            <p>
+              Haga click
+              <a class="text-cyan-600 transition hover:font-semibold hover:text-green-700" target="_blank" href="https://portfolio.fabriciojordan.repl.co/">aquí</a>
+              para ver mi portafolio personal.
+            </p>
+          </div>
+        </section>
+      </div>
+    </section>
+  </header>
+
+  <main class="my-12">
+
+        <section class="bg-gray-300 border border-black w-10/12 h-full m-auto">
+            <article class="flex flex-row w-full h-full">
+                
+                <header class="w-2/12 bg-black text-white flex justify-center items-center">
+                    <ul class="w-full h-full flex flex-col justify-center items-center">
+                        <li class="cursor-pointer w-full h-full border-b-2 border-transparent hover:border-white flex justify-center items-center px-4 py-2 font-bold transition duration-700 hover:bg-slate-600">Inicio</li>
+                        <li class="cursor-pointer w-full h-full border-y-2 border-transparent hover:border-white flex justify-center items-center px-4 py-2 font-bold transition duration-700 hover:bg-slate-600">Proyectos</li>
+                        <li class="cursor-pointer w-full h-full border-y-2 border-transparent hover:border-white flex justify-center items-center px-4 py-2 font-bold transition duration-700 hover:bg-slate-600">Contacto</li>
+                        <li class="cursor-pointer w-full h-full border-y-2 border-transparent hover:border-white flex justify-center items-center px-4 py-2 font-bold transition duration-700 hover:bg-slate-600">Sobre</li>
+                        <li class="cursor-pointer w-full h-full border-t-2 border-transparent hover:border-white flex justify-center items-center px-4 py-2 font-bold transition duration-700 hover:bg-slate-600">Páginas</li>
+                    </ul>
+                </header>
+                
+                <main class="w-10/12 h-full p-4">
+                    <section class="flex flex-col justify-center items-center text-start gap-4">
+
+                        <article class=""> 
+                            <header>
+                                <img id="btn1" class="w-4 h-4 transition-all duration-700" src="/assets/svg/1-square-fill.svg" alt="">
+                            </header>
+                            <main>
+                                <p id="text1" class="transition duration-700 opacity-0">--> En CSS, un breakpoint (punto de quiebre) se refiere a un valor específico de ancho de pantalla en el
+                                    que se produce un cambio en la apariencia o el diseño de un sitio web. Los breakpoints se utilizan en el
+                                    diseño web responsivo (responsive design) para adaptar la apariencia de un sitio a diferentes dispositivos y
+                                    tamaños de pantalla.</p>
+                            </main> 
+                        </article>
+                        
+                        <article class=""> 
+                            <header>
+                                <img id="btn2" class="w-4 h-4 transition-all duration-700" src="/assets/svg/2-square-fill.svg" alt="">
+                            </header>
+                            <main>
+                                <p id="text2" class="transition duration-700 opacity-0">--> Cuando se alcanza un breakpoint determinado, se aplican reglas CSS específicas que alteran la
+                                    presentación del contenido para que se ajuste mejor al dispositivo o pantalla.</p>
+                            </main> 
+                        </article>
+
+                        <article class=""> 
+                            <header>
+                                <img id="btn3" class="w-4 h-4 transition-all duration-700" src="/assets/svg/3-square-fill.svg" alt="">
+                            </header>
+                            <main>
+                                <p id="text3" class="transition duration-700 opacity-0">--> Los breakpoints se definen mediante consultas de medios (media queries) en CSS. Estas consultas
+                                    permiten establecer condiciones basadas en el ancho de la pantalla o el dispositivo, y se utilizan para
+                                    aplicar estilos personalizados en función de estas condiciones.</p>
+                            </main> 
+                        </article>
+
+                        <article class=""> 
+                            <header>
+                                <img id="btn4" class="w-4 h-4 transition-all duration-700" src="/assets/svg/4-square-fill.svg" alt="">
+                            </header>
+                            <main>
+                                <p id="text4" class="transition duration-700 opacity-0">--> Al utilizar breakpoints en CSS, los diseñadores y desarrolladores web pueden crear diseños adaptables
+                                    y optimizados para diferentes dispositivos, proporcionando una experiencia de usuario agradable en una
+                                    amplia gama de pantallas.</p>
+                            </main> 
+                        </article>
+
+                        <article class=""> 
+                            <header>
+                                <img id="btn5" class="w-4 h-4 transition-all duration-700" src="/assets/svg/5-square-fill.svg" alt="">
+                            </header>
+                            <main>
+                                <p id="text5" class="transition duration-700 opacity-0">--> Es importante mencionar que los breakpoints y el diseño responsivo en general son consideraciones
+                                    importantes para garantizar la accesibilidad y usabilidad de un sitio web en dispositivos móviles y de
+                                    escritorio.</p>
+                            </main> 
+                        </article>
+
+                        <hr class="w-full border border-gray-500 ">
+
+                        <article class=""> 
+                            <header>
+                                <img id="btn6" class="w-4 h-4 transition-all duration-700" src="/assets/svg/6-square-fill.svg" alt="">
+                            </header>
+                            <main>
+                                <p id="text6" class="transition duration-700 opacity-0">--> En CSS, un media query (consulta de medios) es una técnica que permite aplicar estilos diferentes a
+                                    un documento HTML en función de las características del dispositivo o medio en el que se visualiza. Permite
+                                    adaptar la presentación de un sitio web a diferentes tamaños de pantalla, tipos de dispositivos y
+                                    capacidades del usuario.</p>
+                            </main> 
+                        </article>
+
+                        <article class=""> 
+                            <header>
+                                <img id="btn7" class="w-4 h-4 transition    -all duration-700" src="/assets/svg/7-square-fill.svg" alt="">
+                            </header>
+                            <main>
+                                <p id="text7" class="transition duration-700 opacity-0">--> Los media queries se utilizan en conjunto con los breakpoints (puntos de quiebre) para crear diseños
+                                    responsivos y adaptativos. Un media query consiste en una expresión que verifica ciertas condiciones, como
+                                    el ancho de la pantalla, la resolución, la orientación, el tipo de dispositivo, entre otros.</p>
+                            </main> 
+                        </article>
+                        
+                    </section>
+                </main>
+            </article>
+        </section>
+
+  </main>
+
+  <footer class="pb-4">
+    <section id="footer__Art" class="text-white flex flex-row justify-center items-center px-12 p-4 mt-2 mx-4 rounded-lg gap-8">
+      <div class="flex justiy-center items-center">
+        <!--   ICONO     -->
+        <img class="w-8 h-8 transition invert hover:scale-105" src="/assets/svg/FJlogoBlack.svg"
+          alt="un svg de mi logo con mis iniciales" />
+      </div>
+
+      <article class="flex flex-row gap-4 justify-center items-center ">
+        <p>Creado por: </p>
+        <a href="https://portfolio.fabriciojordan.repl.co/" class="name">Fabricio Jordán</a>
+        <p>- 2023 -</p>
+      </article>
+
+    
+    </section>
+  </footer>
+
+</body>
+
+</html>

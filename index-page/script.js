@@ -9,3 +9,7 @@ function clickBtnInfo1() {
   btnInfo1.classList.toggle("!bg-red-600");
   btnInfo1.classList.toggle("childrenRotated");
 }
+
+
+
+
